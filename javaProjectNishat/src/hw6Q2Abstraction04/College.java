@@ -16,6 +16,8 @@ public interface College {
 		 
 	 }
 	public static void  studyroom () {
+		System.out.println("This is static method studyroomfrom  from Interface College");
+		
 		
 	}
 	 

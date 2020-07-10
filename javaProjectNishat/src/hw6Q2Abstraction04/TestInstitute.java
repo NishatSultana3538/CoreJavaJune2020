@@ -4,7 +4,7 @@ public class TestInstitute {
 
 	public static void main(String[] args) {
 		
-		
+		//College.studyroom();
 		System.out.println("\n"
 				+ " \t Concrete class ColumbiaUniversity\n"
 				+ "------------------------------------");
@@ -33,6 +33,10 @@ public class TestInstitute {
 		columbiaUniversity.cafeteria();
 		columbiaUniversity.morgue();
 		columbiaUniversity.vocationalInfo();
+		//University.library();
+		//College.studyroom();
+		
+		
 		
 		System.out.println("\n"
 				+ "\t Concrete class RockefellerUniversity \n---------------------------------------------");
@@ -63,6 +67,7 @@ public class TestInstitute {
 		university.surgeryRoom();
 		university.morgue();
 		
+		
 		System.out.println("\n"
 				+ "\tInterface Hospital\n"
 				+ "---------------------------------------------");
@@ -71,6 +76,7 @@ public class TestInstitute {
 		hospital.cafeteria();
 		hospital.surgeryRoom();
 		hospital.morgue();
+		College.studyroom();
 		
 		System.out.println("\n"
 				+ "\tAbstract class Medical school\n"
@@ -85,6 +91,7 @@ public class TestInstitute {
 		medicalSchool.mechanicalLab();
 		medicalSchool.computerLab();
 		medicalSchool.physics();
+		
 		
 		System.out.println("\n"
 				+ "\tAbstract class NursingSchool\n"

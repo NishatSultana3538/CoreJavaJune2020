@@ -9,6 +9,7 @@ public interface University extends College,Hospital {// interface name is alway
 	public void teacher();//is there a shortcut to write declared method like this
 	
 	public static void library() {//static method
+		System.out.println("This is static method library from Interface University");
 		
 	}
 	public default void	gymnesium () {	//default method
